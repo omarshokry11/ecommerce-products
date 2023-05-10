@@ -1,0 +1,53 @@
+.main-product {
+    padding: 25px 0;
+    background-color: white;
+
+    .main-filter {
+        margin-bottom: 20px;
+
+        button {
+            width: 18%;
+            margin: 10px;
+        }
+    }
+
+    .card {
+        height: 420px;
+        margin-bottom: 20px;
+
+        .img {
+            height: 200px;
+            width: 100%;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        .card-body {
+
+            h6 {
+                font-size: 15px;
+                color: brown;
+            }
+
+            p {
+                font-size: 15px;
+                color: red;
+            }
+
+            .price-item {
+                color: orangered;
+                font-weight: bold;
+                width: 100%;
+                margin: 20px 0;
+                font-size: 20px;
+            }
+
+            button {
+                width: 70%;
+            }
+        }
+    }
+}
