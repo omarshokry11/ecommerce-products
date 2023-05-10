@@ -6,17 +6,10 @@
 
 .main-app {
     background-color: rgba(238, 238, 238, 0.548);
+    height: 100vh;
 
     @media (max-width: 1024px) {
         padding-bottom: 0;
-    }
-
-    @media (max-width: 717px) {
-        padding-bottom: 30px;
-    }
-
-    @media (max-width: 412px) {
-        padding-bottom: 90px;
     }
 
     @media (max-width: 390px) {

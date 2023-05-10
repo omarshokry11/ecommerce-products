@@ -1,3 +1,4 @@
+import {Link} from "react-router-dom"
 import "./Style/Navbar.scss";
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -9,7 +10,7 @@ export default function Navbar() {
             <div className="container-fluid">
                 <div className="row">
                     <div className="col-9">
-                        <h2>Ecommerce</h2>
+                        <Link to="/">Ecommerce</Link>
                     </div>
                     <div className="col-3 text-end">
                         <div className="cart-icon">
