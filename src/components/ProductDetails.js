@@ -12,7 +12,8 @@ export default function ProductDetails() {
         fetch(`${api_url}/${params.productId}`)
             .then((res) => res.json())
             .then((product) => setProduct(product));
-    }, []);
+    }, [])
+
     return (
         <div className="main-product-details text-center">
             <div className="product-details">
@@ -27,7 +28,7 @@ export default function ProductDetails() {
                         {count === 1 ? <button>-</button> : <button onClick={() => setCount(count - 1)}>-</button>}
 
                     </div>
-                    <button className='btn btn-danger buy'>Buy</button>
+                    <button className='btn btn-danger buy'>add to cart</button>
                 </div>
             </div>
         </div>

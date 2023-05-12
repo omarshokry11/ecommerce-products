@@ -1,3 +1,4 @@
+import Cart from './components/Cart';
 import Navbar from './components/Navbar';
 import ProductDetails from './components/ProductDetails';
 import Products from './components/Products';
@@ -11,6 +12,7 @@ export default function App() {
 				<Routes>
 					<Route path="/" element={<Products />} />
 					<Route path="product/:productId" element={<ProductDetails />} />
+					<Route path="/cart" element={<Cart />} />
 				</Routes>
 			</div>
 		</div>
